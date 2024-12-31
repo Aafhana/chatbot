@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "Admissions",
+      "patterns": [
+        "admissions",
+        "where admissions happen",
+        "admission query",
+        "how to take admissions",
+        "room no for admission?",
+        "which building admission happen, which floor",
+        "how to enroll in this department college"
+      ],
+      "responses": [
+        "Hey i can help you with that,\n For Admissions visit Admin block 1st floor"
+        
+      ]
+    },
+   
+    {
+      "tag":"Dean office",
+      "patterns":["who is the dean and where his her room",
+    "about dean of college how to meet ",
+  "dean",
+"Dean" ],
+    "responses": [
+      "Dr. Renukalatha is the Dean and HOD of CSE department\n Get in touch  by visting  her Cabin Room number-107 Admin Block"
+      
+    ]
+
+    },
+    
+    {
+      "tag":"sample",
+      "patterns":[
+        "I have a fever",
+        "Iam unwell",
+        "I have high  body temperature","i hve muscle pain"
+      ],
+      "responses":["I can understand that. Tell me more about like any other  symptoms?"]
+      
+    
+    
+    },
+
+    
+
+
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "good bye"],
+      "responses": ["good bye"]
+        
+      
+      
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    
+
+    {
+      "tag":"hospital details",
+      "patterns":["yes",
+      "get me hospital details",
+      "show hospitals near by me",
+      "ok show"
+      ],
+      "responses":["enter or say your pincode"]
+    },
+   
+      {
+          "tag":"572104",
+      "patterns":["572104"
+      ],
+      "responses":["Siddaganga Hospital(2954/139, Bengaluru - Honnavar Road, 7Th Cross, Opp. Vigneshwara Comforts Hotel, Ward No. 18, Ashok Nagar, Tumakuru, Karnataka 572101)"]
+          },
+
+          {
+            "tag":"572101",
+        "patterns":["572101"
+        ],
+        "responses":["Siddaganga Hospital,Bengaluru - Honnavar Road, 7Th Cross, Opp. Vigneshwara Comforts Hotel, Ward No. 18, Ashok Nagar, Tumakuru, Karnataka 572101)"]
+            },
+            {
+              "tag":"572103",
+          "patterns":["572103"
+          ],
+          "responses":["fortis Adarsha hospital, sharadaDevi Nagar-opposite MG stadium Tumkur 572103"]
+              },
+    
+
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "registration process",
+      "patterns": [
+        "register for event",
+        "event registration",
+        "event register",
+        "How do I register for an event?",
+        "What is the registration process for an event? "
+      ],
+      "responses": [
+        "First, click on the event and open the provided link, which will redirect you to a Google Form. Fill in the required details."
+      ]
+    },
+    {
+      "tag" : "adding an event",
+      "patterns" : [
+        "Event adding",
+        "How to add an event?",
+        "What is the process to add an event?"
+      ],
+      "responses": [" Click on the 'Add Your Event' button in the navbar and fill in the required details." ]
+    },
+    {
+      "tag" : "login",
+      "patterns" : [
+        "login",
+        "How to login into the website?",
+        "what is the login procedure into the website?"
+      ],
+      "responses" : [
+        "On the landing page, click on the profile icon, and you will be able to log in or sign up for the website. "
+      ]
+    },
+    {
+      "tag" : "functionalities",
+      "patterns" : [
+        "Functions",
+        "Features",
+        "feature"
+      ],
+      "responses" :[
+        "The website offers various events such as Kalotsava, Intent, Interface, and seminars/webinars. You can register for these events or add your own events through the website, and you will also find updates regarding these events. "
+      ]
+    },
+    {
+      "tag" : "Counseling Services",
+      "patterns" : [
+        "counceller",
+        "counceler",
+        "Do you offer counseling services?",
+        "Can I speak to a counselor?",
+        "counseling service"
+        ],
+      "responses" : [
+        "Yes, our department offers confidential counseling services to all students, allowing them to share their thoughts with the counselor. After classes commences the students will be alloted to the councellers",
+        "Our counselors provide support for a range of issues, including academic pressure, stress, and teaching-related concerns with lecturers."
+      ]
+    },
+    {
+      "tag" : "Kalotsava",
+      "patterns" : [
+        "What is Kalotsava?",
+        "Kalotsava",
+        "kalot"
+        ],
+      "responses" : [
+        "Kalotsava is a cultural event organised in SSIT"
+      ]
+    },
+    {
+      "tag" : "Tech",
+      "patterns" : [
+        "Technodea",
+        "Technoogy",
+        "Open House"
+        ],
+      "responses" : [
+        "National level project exhibition",
+        "Showcase your technical skill "
+      ]
+    }
+     
+  ]
+}
